@@ -1,0 +1,65 @@
+body {
+    background-color: #f4f8f8; /* Fondo blanco */
+    color: #000; /* Texto negro */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: transparent; /* Fondo transparente */
+    text-align: center;
+    margin-top: 20px; /* Margen superior para separar del borde */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header h1 .highlight {
+    color: #8606f0; /* Texto "Buscando" en amarillo */
+    padding: 5px 10px; /* Espacio interno alrededor del texto */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px; /* Espacio inferior para separar del contenido siguiente */
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 2em;
+    border: 2px solid #000; /* Borde negro */
+    border-radius: 4px;
+    margin-right: 10px; /* Espacio derecho entre el input y el botón */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 2em;
+    background-color: #ff0; /* Fondo amarillo para el botón */
+    color: #000; /* Texto negro */
+    border: 2px solid #000; /* Borde negro */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffc107; /* Amarillo más claro al pasar el ratón */
+}
+
+footer {
+    background-color: transparent; /* Fondo transparente */
+    color: #000; /* Texto negro */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
